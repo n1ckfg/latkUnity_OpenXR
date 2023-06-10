@@ -1,0 +1,394 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 49107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/LIGHTNING_ARTIST/LATK_UNITY_COLLECTION/latkUnity_OpenXR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61844
+Successfully changed project path to: D:/GitHub/LIGHTNING_ARTIST/LATK_UNITY_COLLECTION/latkUnity_OpenXR
+D:/GitHub/LIGHTNING_ARTIST/LATK_UNITY_COLLECTION/latkUnity_OpenXR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10013).
+Player connection [31468] Host "[IP] 10.88.111.2 [Port] 0 [Flags] 2 [Guid] 440648323 [EditorId] 440648323 [Version] 1048832 [Id] WindowsEditor(7,BrazilV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 113.04 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.70 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/LIGHTNING_ARTIST/LATK_UNITY_COLLECTION/latkUnity_OpenXR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11023 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010918 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 464 ms
+Refreshing native plugins compatible for Editor in 103.02 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1403ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1160ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (907ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (624ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008655 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 95.37 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1c8569827291471e9db0dcd976e97952>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.539 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1540ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1251ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (658ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (286.4 KB). Loaded Objects now: 4655.
+Memory consumption went from 160.5 MB to 160.2 MB.
+Total: 7.401200 ms (FindLiveObjects: 0.786000 ms CreateObjectMapping: 0.584100 ms MarkObjects: 5.858700 ms  DeleteObjects: 0.171100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 842059.094646 seconds.
+  path: Assets/latkxOpenXR/Scripts/SteamVR_WorldScale.cs
+  artifactKey: Guid(4f9df40d4e3d810428c49acd2f59c8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/SteamVR_WorldScale.cs using Guid(4f9df40d4e3d810428c49acd2f59c8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b5d7e4c4e9d3d567939d9f34aa4ba7') in 0.065556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.891638 seconds.
+  path: Assets/latkxOpenXR/Scripts/OpenXR_WorldScale.cs
+  artifactKey: Guid(4f9df40d4e3d810428c49acd2f59c8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/OpenXR_WorldScale.cs using Guid(4f9df40d4e3d810428c49acd2f59c8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccda8500c4e59fb6500562ecc28f48e7') in 0.009522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.399048 seconds.
+  path: Assets/latkxOpenXR/Scripts/VivePaletteToggle.cs
+  artifactKey: Guid(86047464281d7e54dab2f22ef8d53070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/VivePaletteToggle.cs using Guid(86047464281d7e54dab2f22ef8d53070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff90ac967eaa55b14089ff7d4435b7') in 0.013711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.316505 seconds.
+  path: Assets/latkxOpenXR/Scripts/OpenXRPaletteToggle.cs
+  artifactKey: Guid(86047464281d7e54dab2f22ef8d53070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/OpenXRPaletteToggle.cs using Guid(86047464281d7e54dab2f22ef8d53070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a211aaf2d7482284c3d8c27603615c') in 0.010293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.464289 seconds.
+  path: Assets/latkxOpenXR/Scripts/OpenXR_NewController.cs
+  artifactKey: Guid(db01c47408ac58f46931035c950703ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/OpenXR_NewController.cs using Guid(db01c47408ac58f46931035c950703ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c979527fb7ffe4139199b34c6f19f7c4') in 0.010816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.159143 seconds.
+  path: Assets/latkxOpenXR/Scripts/LatkInputVive.cs
+  artifactKey: Guid(789e0e655cf7bff43ba601fa90184180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/LatkInputVive.cs using Guid(789e0e655cf7bff43ba601fa90184180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bca2768e41b2532cfd1b3c6bd579e3') in 0.016357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.103764 seconds.
+  path: Assets/latkxOpenXR/Scripts/LatkInputOpenXR.cs
+  artifactKey: Guid(789e0e655cf7bff43ba601fa90184180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/LatkInputOpenXR.cs using Guid(789e0e655cf7bff43ba601fa90184180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196ba7582ad52c782de44ac0a25557cf') in 0.009204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243221 seconds.
+  path: Assets/latkxOpenXR/Scripts/LatkHideMenuVive.cs
+  artifactKey: Guid(48ec4937f4b80464aa2bea36183aee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/LatkHideMenuVive.cs using Guid(48ec4937f4b80464aa2bea36183aee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f79d388f7b78df526b6ebba85d5cbb') in 0.009434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.592788 seconds.
+  path: Assets/latkxOpenXR/Scripts/LatkHideMenuOpenXR.cs
+  artifactKey: Guid(48ec4937f4b80464aa2bea36183aee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/LatkHideMenuOpenXR.cs using Guid(48ec4937f4b80464aa2bea36183aee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca30da0b437ca506906f7018a804b3c') in 0.008229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206415 seconds.
+  path: Assets/latkxOpenXR/Scripts/DraggableVive.cs
+  artifactKey: Guid(f3f77ae805e9b7c4380fc1358b3908a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/DraggableVive.cs using Guid(f3f77ae805e9b7c4380fc1358b3908a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1c71950940ca93951e4301e1d2ec19') in 0.008889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.236735 seconds.
+  path: Assets/latkxOpenXR/Scripts/DraggableOpenXR.cs
+  artifactKey: Guid(f3f77ae805e9b7c4380fc1358b3908a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/DraggableOpenXR.cs using Guid(f3f77ae805e9b7c4380fc1358b3908a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c7b974caa3d0e67ccab50b47387ec8') in 0.009274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.227714 seconds.
+  path: Assets/latkxOpenXR/Scripts/OpenXR_NewController.cs
+  artifactKey: Guid(db01c47408ac58f46931035c950703ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/OpenXR_NewController.cs using Guid(db01c47408ac58f46931035c950703ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef75f782c874cda84891d06d55f1f1af') in 0.007407 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\LIGHTNING_ARTIST\LATK_UNITY_COLLECTION\latkUnity_OpenXR\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1c8569827291471e9db0dcd976e97952>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1433ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.24 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4153 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (25.6 KB). Loaded Objects now: 4659.
+Memory consumption went from 158.0 MB to 158.0 MB.
+Total: 4.089200 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.272900 ms MarkObjects: 3.402300 ms  DeleteObjects: 0.043500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 115.590099 seconds.
+  path: Assets/latkxOpenXR/Scripts/OpenXRPaletteToggle.cs
+  artifactKey: Guid(86047464281d7e54dab2f22ef8d53070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scripts/OpenXRPaletteToggle.cs using Guid(86047464281d7e54dab2f22ef8d53070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d919db7cbc8b8db72af2d2b653cab58') in 0.009750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.276599 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(d29ac9684aaac324ab07392641435c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(d29ac9684aaac324ab07392641435c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13eb9db7711ea6947f64a01f6d21e9cf') in 0.009572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.095930 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(d29ac9684aaac324ab07392641435c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(d29ac9684aaac324ab07392641435c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7736f12a9548af5e0306570391e06e') in 0.002709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 219.165571 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.007976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.592561 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(dc92fe524505f864a9327f52e97e025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(dc92fe524505f864a9327f52e97e025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ed5ade54ca8af57305f5bef80da9b2') in 0.009394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.609968 seconds.
+  path: Assets/Prefabs/XR Origin.prefab
+  artifactKey: Guid(54164515f9522184d99f5fcdd0c80658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/XR Origin.prefab using Guid(54164515f9522184d99f5fcdd0c80658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5b980b5ae413c1b8d9e80b5f393090') in 0.135292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.085255 seconds.
+  path: Assets/latkxOpenXR/Scenes/Drawing.unity
+  artifactKey: Guid(43a09159f94507f499a963a7df120c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scenes/Drawing.unity using Guid(43a09159f94507f499a963a7df120c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d111bb682313a33ed182c898304f63') in 0.008474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.248548 seconds.
+  path: Assets/latkxOpenXR/Scenes/Jetpack.unity
+  artifactKey: Guid(798749c1d86185745bacce7d46842209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scenes/Jetpack.unity using Guid(798749c1d86185745bacce7d46842209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfabcb87cdece1a5878b2536ed828818') in 0.010401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.486784 seconds.
+  path: Assets/latkxOpenXR/Scenes/NineMove.unity
+  artifactKey: Guid(b6c23f9216c316d4d8d2344324d46f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scenes/NineMove.unity using Guid(b6c23f9216c316d4d8d2344324d46f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3566e6c797906bed94ab0fc8b3a5e93') in 0.007801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530485 seconds.
+  path: Assets/latkxOpenXR/Scenes/latkSteamVR_Example.unity
+  artifactKey: Guid(07ae4e77ef013134e8b3c57c8c7d0be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/latkxOpenXR/Scenes/latkSteamVR_Example.unity using Guid(07ae4e77ef013134e8b3c57c8c7d0be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f7c3d67e0d50c0256d7190cba7ab21') in 0.009043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.309014 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(d29ac9684aaac324ab07392641435c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(d29ac9684aaac324ab07392641435c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc7fcb16f265cbe26550e6024cb557c') in 0.002905 seconds 
