@@ -1,0 +1,9 @@
+[submodule "Assets/latkUnity"]
+	path = Assets/latkUnity
+	url = https://github.com/LightningArtist/latkUnity
+[submodule "Assets/latkxColorPicker"]
+	path = Assets/latkxColorPicker
+	url = https://github.com/n1ckfg/latkxColorPicker
+[submodule "Assets/latkxOpenXR"]
+	path = Assets/latkxOpenXR
+	url = https://github.com/n1ckfg/latkxOpenXR
