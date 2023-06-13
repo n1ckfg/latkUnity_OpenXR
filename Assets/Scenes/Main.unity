@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 372295309}
-  m_IndirectSpecularColor: {r: 0.028917404, g: 0.058743365, b: 0.13600172, a: 1}
+  m_IndirectSpecularColor: {r: 0.03750357, g: 0.07238585, b: 0.15700492, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -332,9 +332,13 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
+      propertyPath: brushMat.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ff5f226683f27a4f8e5be4f5a466cba, type: 2}
+    - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: brushMat.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: d505a115c8f8a8b44bd355bcd030e3e4, type: 2}
+      objectReference: {fileID: 2100000, guid: 4201e880fe64c754d97309bcac83ab8e, type: 2}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: animatorRen.Array.data[0]
       value: 
@@ -431,7 +435,6 @@ GameObject:
   - component: {fileID: 234306684}
   - component: {fileID: 234306686}
   - component: {fileID: 234306687}
-  - component: {fileID: 234306688}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -501,23 +504,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ctl: {fileID: 428960184}
   laser: {fileID: 1921095330}
-  ctlModeL: 1
+  ctlModeL: 0
   colorModeObj: {fileID: 1999274570}
---- !u!114 &234306688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234306683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f62e81cf8b69adc47a8374010ff61ff8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whichDevice: 0
-  R_controller_root: {fileID: 665929397}
-  L_controller_root: {fileID: 1067818308}
 --- !u!1001 &272621768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -616,14 +604,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372295307}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.8365164, y: -0.12940949, z: 0.22414386, w: 0.48296288}
   m_LocalPosition: {x: 0, y: -0.42862982, z: -6.514}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 120, y: -30, z: 0}
 --- !u!108 &372295309
 Light:
   m_ObjectHideFlags: 0
@@ -867,19 +855,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db01c47408ac58f46931035c950703ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetDevice: {fileID: 234306688}
+  targetDevice: {fileID: 508385138}
   triggerPressed: 0
   padPressed: 0
   gripped: 0
   menuPressed: 0
+  menu2Pressed: 0
   triggerDown: 0
   padDown: 0
   gripDown: 0
   menuDown: 0
+  menu2Down: 0
   triggerUp: 0
   padUp: 0
   gripUp: 0
   menuUp: 0
+  menu2Up: 0
   padDirUp: 0
   padDirDown: 0
   padDirLeft: 0
@@ -900,10 +891,18 @@ PrefabInstance:
       propertyPath: ctl
       value: 
       objectReference: {fileID: 428960184}
+    - target: {fileID: 7240074399948132239, guid: 953d22d82f417a441a09e847921db63f, type: 3}
+      propertyPath: rayTransform
+      value: 
+      objectReference: {fileID: 665929397}
     - target: {fileID: 7240074399969814804, guid: 953d22d82f417a441a09e847921db63f, type: 3}
       propertyPath: ctl
       value: 
       objectReference: {fileID: 428960184}
+    - target: {fileID: 7240074399969814804, guid: 953d22d82f417a441a09e847921db63f, type: 3}
+      propertyPath: rayTransform
+      value: 
+      objectReference: {fileID: 665929397}
     - target: {fileID: 7240074400419123469, guid: 953d22d82f417a441a09e847921db63f, type: 3}
       propertyPath: m_Name
       value: ColorPickerOpenXR
@@ -1069,6 +1068,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499818221}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &508385137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508385139}
+  - component: {fileID: 508385138}
+  m_Layer: 0
+  m_Name: TARGET_DEVICE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &508385138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508385137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62e81cf8b69adc47a8374010ff61ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whichDevice: 1
+  R_controller_root: {fileID: 665929397}
+  L_controller_root: {fileID: 1067818308}
+--- !u!4 &508385139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508385137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &596022059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,19 +1193,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db01c47408ac58f46931035c950703ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetDevice: {fileID: 234306688}
+  targetDevice: {fileID: 508385138}
   triggerPressed: 0
   padPressed: 0
   gripped: 0
   menuPressed: 0
+  menu2Pressed: 0
   triggerDown: 0
   padDown: 0
   gripDown: 0
   menuDown: 0
+  menu2Down: 0
   triggerUp: 0
   padUp: 0
   gripUp: 0
   menuUp: 0
+  menu2Up: 0
   padDirUp: 0
   padDirDown: 0
   padDirLeft: 0
