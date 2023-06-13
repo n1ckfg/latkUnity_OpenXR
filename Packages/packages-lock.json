@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.utilities": {
+      "version": "https://github.com/icosa-mirror/com.meta.xr.sdk.utilities.git#open-brush",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "79e3da292d15308ab01b14e9487b8b1253dcba84"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
