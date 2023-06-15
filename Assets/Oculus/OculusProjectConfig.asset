@@ -31,7 +31,7 @@ MonoBehaviour:
   focusAware: 1
   requiresSystemKeyboard: 0
   experimentalFeaturesEnabled: 0
-  insightPassthroughEnabled: 0
+  insightPassthroughEnabled: 1
   systemSplashScreen: {fileID: 0}
   ovrPluginMd5Win64: cc745177e7550713731157d64af22834
   ovrPluginMd5Android: 997ec6c34867e09e006518cbedd3a649
