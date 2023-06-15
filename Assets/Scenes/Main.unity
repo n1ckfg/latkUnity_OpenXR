@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f62e81cf8b69adc47a8374010ff61ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whichDevice: 1
+  whichDevice: 0
   rotationCorrection: 1
   R_controller_root: {fileID: 665929397}
   L_controller_root: {fileID: 1067818308}
