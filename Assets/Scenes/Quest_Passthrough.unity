@@ -198,6 +198,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5787377195544677998, guid: 992cc7a3957859c44b2adde4b37a7599, type: 3}
   m_PrefabInstance: {fileID: 5787377195598490379}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &126237780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 126237782}
+  - component: {fileID: 126237781}
+  m_Layer: 0
+  m_Name: ONNX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &126237781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126237780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ca38da38b05334cb0b29201c788dfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nnModel: {fileID: 5022602860645237092, guid: 46d4bdd1f6ba837438c0cd5c37ed9671, type: 3}
+  targetMtl: {fileID: 2100000, guid: c4574e9f686791d43825b47d2e4ac1c9, type: 2}
+  targetMtlProp: _MainTex
+  displayOutputTexture: 0
+  latk: {fileID: 1720419522}
+  skeleton_threshold: 0.01
+  trace_c: 1
+  minPoints: 3
+  distanceThreshold: 0.5
+  scaleDownFactor: 3
+  inputTex: {fileID: 0}
+  outputTex: {fileID: 0}
+--- !u!4 &126237782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126237780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &150527467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -654,61 +710,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c0ba08db54f316341b59793aac9b4e35, type: 3}
   m_PrefabInstance: {fileID: 272621768}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &361650671
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 361650673}
-  - component: {fileID: 361650672}
-  m_Layer: 0
-  m_Name: ONNX
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &361650672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361650671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a435b94ee3b744458ff28e60b132186, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nnModel: {fileID: 5022602860645237092, guid: 46d4bdd1f6ba837438c0cd5c37ed9671, type: 3}
-  targetMtl: {fileID: 2100000, guid: f8e80aed897d1ad479b6bdd09d5c144f, type: 2}
-  targetMtlProp: _MainTex
-  displayOutputTexture: 0
-  latk: {fileID: 1720419522}
-  skeleton_threshold: 0.01
-  trace_c: 1
-  minPoints: 3
-  distanceThreshold: 0.5
-  inputTex: {fileID: 0}
-  outputTex: {fileID: 0}
---- !u!4 &361650673
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361650671}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &372295307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,7 +1461,7 @@ MonoBehaviour:
   ctlAlt: {fileID: 596022062}
   latk: {fileID: 1720419522}
   collisionGuideRen: {fileID: 792610591}
-  onnx: {fileID: 361650672}
+  onnx: {fileID: 126237781}
 --- !u!4 &843389178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 407312, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
