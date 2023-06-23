@@ -10,3 +10,6 @@
 [submodule "Assets/latkxOculus"]
 	path = Assets/latkxOculus
 	url = https://github.com/n1ckfg/latkxOculus
+[submodule "Assets/latkxONNX"]
+	path = Assets/latkxONNX
+	url = https://github.com/n1ckfg/latkxONNX
