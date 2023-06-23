@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.barracuda": "3.0.0",
     "com.meta.xr.sdk.utilities": "https://github.com/icosa-mirror/com.meta.xr.sdk.utilities.git#open-brush",
     "com.unity.ide.visualstudio": "2.0.18",
     "com.unity.ide.vscode": "1.2.5",
