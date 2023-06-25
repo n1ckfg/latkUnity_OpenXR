@@ -260,6 +260,7 @@ Transform:
   - {fileID: 960659484}
   - {fileID: 1439495731}
   - {fileID: 478543996}
+  - {fileID: 2145656172}
   m_Father: {fileID: 2048234813}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1052,8 +1053,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.6279815, g: 0.8322482, b: 0.9056604, a: 1}
+  m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3046,23 +3047,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 2050788452}
+  followTarget: {fileID: 388392901}
   camIsMain: 0
-  followMainCam: 1
-  matchMainCamSettings: 0
+  matchMainCamSettings: 1
   nnModel: {fileID: 5022602860645237092, guid: 7cff91f7ecce8bf43853445b692141ef, type: 3}
+  inferenceResolution: 1024
   targetMtl: {fileID: 2100000, guid: ae52e3ea1548d724987343863ed5857b, type: 2}
   targetMtlProp: _MainTex
   displayOutputTexture: 1
   latk: {fileID: 1720419522}
-  skeleton_threshold: 0.1
-  trace_c: 3
+  skeleton_threshold: 0.01
+  trace_c: 1
   minPoints: 3
   distanceThreshold: 0.1
-  scaleDownFactor: 1
-  flipX: 0
-  flipY: 1
-  inputTex: {fileID: 0}
-  outputTex: {fileID: 0}
+  inputRTex: {fileID: 0}
+  infRTex: {fileID: 0}
+  outputRTex: {fileID: 0}
 --- !u!4 &1470815869
 Transform:
   m_ObjectHideFlags: 0
@@ -3874,7 +3874,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &2050788451
 AudioListener:
@@ -4218,10 +4218,10 @@ Transform:
   m_GameObject: {fileID: 2145656168}
   m_LocalRotation: {x: -0.74980056, y: 0.062079236, z: 0.071075074, w: 0.6548997}
   m_LocalPosition: {x: -6.81, y: 1.6828197, z: 2.18}
-  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967003}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 106667032}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -97.73, y: 10.83, z: 0}
 --- !u!1001 &19215122150608350
