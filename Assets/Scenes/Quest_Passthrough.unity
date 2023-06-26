@@ -1892,6 +1892,7 @@ MonoBehaviour:
   ctlAlt: {fileID: 596022062}
   latk: {fileID: 1720419522}
   collisionGuideRen: {fileID: 792610591}
+  collisionGuideCol: {fileID: 1786967124}
   onnx: {fileID: 13565617}
 --- !u!4 &843389178 stripped
 Transform:
@@ -3076,7 +3077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 64014481773589292, guid: 484b65eae8c502245b289b844d591cdf, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64014481773589292, guid: 484b65eae8c502245b289b844d591cdf, type: 3}
       propertyPath: m_CookingOptions
@@ -3084,6 +3085,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 484b65eae8c502245b289b844d591cdf, type: 3}
+--- !u!64 &1786967124 stripped
+MeshCollider:
+  m_CorrespondingSourceObject: {fileID: 64014481773589292, guid: 484b65eae8c502245b289b844d591cdf, type: 3}
+  m_PrefabInstance: {fileID: 1786967123}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1822810815
 GameObject:
   m_ObjectHideFlags: 0
