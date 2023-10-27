@@ -175,10 +175,10 @@ MonoBehaviour:
   targetMtl: {fileID: 2100000, guid: ae52e3ea1548d724987343863ed5857b, type: 2}
   targetMtlProp: _MainTex
   displayOutputTexture: 1
-  hideRenderLayer: 0
+  hideRenderLayer: 1
   latk: {fileID: 1720419522}
   skeleton_threshold: 0.1
-  trace_c: 1
+  trace_c: 3
   minPoints: 3
   distanceThreshold: 0.1
   flipInputX: 0
@@ -828,7 +828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: fillMeshStrokes
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: frameBrightNormal
