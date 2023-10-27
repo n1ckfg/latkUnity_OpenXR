@@ -171,13 +171,13 @@ MonoBehaviour:
   camIsMain: 0
   matchMainCamSettings: 1
   nnModel: {fileID: 5022602860645237092, guid: 7cff91f7ecce8bf43853445b692141ef, type: 3}
-  inferenceResolution: 256
+  inferenceResolution: 512
   targetMtl: {fileID: 2100000, guid: ae52e3ea1548d724987343863ed5857b, type: 2}
   targetMtlProp: _MainTex
   displayOutputTexture: 1
-  hideRenderLayer: 1
+  hideRenderLayer: 0
   latk: {fileID: 1720419522}
-  skeleton_threshold: 0.01
+  skeleton_threshold: 0.1
   trace_c: 1
   minPoints: 3
   distanceThreshold: 0.1
@@ -760,7 +760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: minDistance
-      value: 0.001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: readOnStart
@@ -792,7 +792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: refineStrokes
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: useCollisions
@@ -828,7 +828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: fillMeshStrokes
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: frameBrightNormal
@@ -853,11 +853,11 @@ PrefabInstance:
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: brushMat.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7ff5f226683f27a4f8e5be4f5a466cba, type: 2}
+      objectReference: {fileID: 2100000, guid: eb40a9f93cdb14510b1d2fdd8f6ebed3, type: 2}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: brushMat.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 28f5b0cf9762c384f8e48bb1e9c14d17, type: 2}
+      objectReference: {fileID: 2100000, guid: cc9112c730a924f0bb09b71182c62ab2, type: 2}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: animatorRen.Array.data[0]
       value: 
