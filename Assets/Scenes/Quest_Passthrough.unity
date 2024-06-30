@@ -1809,6 +1809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneAPIDataLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 7973531395778442178, guid: 3cfa20e58676d4e6bbc91111fb9425f7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
