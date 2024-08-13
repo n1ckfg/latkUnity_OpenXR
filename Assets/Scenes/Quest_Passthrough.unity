@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -853,11 +852,11 @@ PrefabInstance:
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: brushMat.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eb40a9f93cdb14510b1d2fdd8f6ebed3, type: 2}
+      objectReference: {fileID: 2100000, guid: cc9112c730a924f0bb09b71182c62ab2, type: 2}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: brushMat.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: cc9112c730a924f0bb09b71182c62ab2, type: 2}
+      objectReference: {fileID: 2100000, guid: eb40a9f93cdb14510b1d2fdd8f6ebed3, type: 2}
     - target: {fileID: 11437508, guid: bd6b520ae512fe14284192c59b70f0f3, type: 3}
       propertyPath: animatorRen.Array.data[0]
       value: 
@@ -1432,6 +1431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetDevice: {fileID: 508385138}
+  useTouchXPressure: 1
   triggerPressed: 0
   padPressed: 0
   gripped: 0
@@ -1907,6 +1907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetDevice: {fileID: 508385138}
+  useTouchXPressure: 0
   triggerPressed: 0
   padPressed: 0
   gripped: 0
