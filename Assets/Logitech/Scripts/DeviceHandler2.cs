@@ -6,6 +6,7 @@ public class DeviceHandler2 : MonoBehaviour {
 
     //public GameObject LeftHand;
     public GameObject RightHand;
+    public MeshRenderer[] rens;
     
     private void Awake() {
         InputDevices.deviceConnected += DeviceConnected;
@@ -15,6 +16,10 @@ public class DeviceHandler2 : MonoBehaviour {
         foreach (InputDevice device in devices) {
             DeviceConnected(device);
         }
+    }
+
+    private void Start() {
+      ShowRens(false);  
     }
 
     private void OnDestroy() {
@@ -29,6 +34,7 @@ public class DeviceHandler2 : MonoBehaviour {
 
             //LeftHand.SetActive(false);
             RightHand.SetActive(false);
+            ShowRens(false);
         }
     }
 
@@ -41,18 +47,25 @@ public class DeviceHandler2 : MonoBehaviour {
             //bool isOnRightHand = (device.characteristics & InputDeviceCharacteristics.Right) != 0;
             //LeftHand.SetActive(!isOnRightHand);
             RightHand.SetActive(true); //isOnRightHand);
+            ShowRens(true);
 
+            /*
             MxInkHandler MxInkStylus = FindFirstObjectByType<MxInkHandler>();
             if (MxInkStylus) {
                 MxInkStylus.SetHandedness(true); //isOnRightHand);
-                /*
                 LineDrawing lineDrawing = FindFirstObjectByType<LineDrawing>();
                 if (lineDrawing)
                 {
                     lineDrawing.Stylus = MxInkStylus;
                 }
-                */
             }
+            */
+        }
+    }
+
+    public void ShowRens(bool b) {
+        for (int i=0; i<rens.Length; i++) {
+            rens[i].enabled = b;
         }
     }
 

@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ffb8ef72016454589ac82b355a0897, type: 3}
   m_Name: LogitechMxInkControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Logitech MX Ink Stylus Interaction Profile
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.input.logitechmxink
