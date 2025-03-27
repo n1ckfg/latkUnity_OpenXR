@@ -1431,7 +1431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetDevice: {fileID: 508385138}
-  useTouchXPressure: 1
+  useTouchXPressure: 0
   triggerPressed: 0
   padPressed: 0
   gripped: 0
